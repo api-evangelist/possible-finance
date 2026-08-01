@@ -1,8 +1,30 @@
 aid: possible-finance
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/possible-finance.png
 name: Possible Finance
-description: Possible Finance is a company surfaced as a portfolio company of union-square-ventures and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Possible Finance is a consumer fintech company offering small-dollar
+  installment loans and credit-building products through a mobile app. Its core
+  products are the Possible Loan (up to $500 with flexible repayment schedules),
+  the Possible Advance (up to $300 drawn against a future paycheck), and Bill &
+  Rent Reporting that builds credit history by reporting on-time payments to the
+  credit bureaus. The company charges no late fees or penalty charges and uses
+  AI-driven underwriting based on real banking activity rather than FICO scores,
+  serving borrowers who are underserved by traditional credit. Possible Finance
+  operates as a Delaware Public Benefit Corporation and is backed by Union Square
+  Ventures. It is a mobile-app, consumer-facing product with no public developer
+  API surface; this profile captures its identity and domain-security posture for
+  the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/possible-finance/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +34,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Fintech
+- Consumer Lending
+- Credit Building
+- Personal Finance
+- Mobile App
+- Financial Services
+- Public Benefit Corporation
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +53,22 @@ maintainers:
 common:
 - type: Website
   url: https://www.possiblefinance.com
+- type: Blog
+  url: https://www.possiblefinance.com/blog
+- type: Support
+  url: https://support.possiblefinance.com/hc/en-us
+- type: Login
+  url: https://app.possiblefinance.com/login
+- type: SignUp
+  url: https://app.possiblefinance.com/
+- type: TermsOfService
+  url: https://www.possiblefinance.com/tos
+- type: PrivacyPolicy
+  url: https://www.possiblefinance.com/privacy-policy
+- type: DomainSecurity
+  url: security/possible-finance-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1

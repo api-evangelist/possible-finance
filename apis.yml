@@ -53,7 +53,7 @@ tags:
 - Credit Building
 - Personal Finance
 - Mobile App
-- Financial-Services
+- Financial Services
 - Public Benefit Corporation
 tags_raw:
 - Company
@@ -64,6 +64,7 @@ tags_raw:
 - Mobile App
 - Financial Services
 - Public Benefit Corporation
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
